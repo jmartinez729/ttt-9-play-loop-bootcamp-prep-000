@@ -35,8 +35,9 @@ def turn(board)
   end
 end
 
-loop do
-  counter = 0
-  turn(board) until counter == 9
-  counter += 1 
-end 
+counter = 0 
+  while counter < 9 
+    loop do 
+      turn(board)
+    end 
+  end 
