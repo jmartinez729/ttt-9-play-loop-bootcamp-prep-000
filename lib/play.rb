@@ -35,7 +35,4 @@ def turn(board)
   end
 end
 
-def play
-  counter = 0
-  loop do
-    turn(board) until 
+
